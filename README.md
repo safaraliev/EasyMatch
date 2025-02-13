@@ -56,3 +56,11 @@ For any questions, feel free to contact me via email at nsafaraliev@na.edu.
 To get started, clone the repository to your local machine using:
 ```bash
 git clone git@github.com:safaraliev/EasyMatch.git
+```
+
+### 🔧 **Install Dependencies with CocoaPods**  
+This project uses **CocoaPods** for dependency management. If you haven't installed CocoaPods yet, run:  
+
+```bash
+sudo gem install cocoapods
+```
