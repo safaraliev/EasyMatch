@@ -64,3 +64,9 @@ This project uses **CocoaPods** for dependency management. If you haven't instal
 ```bash
 sudo gem install cocoapods
 ```
+Then navigate to the project folder and install dependencies:
+```bash
+cd EasyMatch
+pod install
+```
+Always open the .xcworkspace file in Xcode instead of .xcodeproj:
