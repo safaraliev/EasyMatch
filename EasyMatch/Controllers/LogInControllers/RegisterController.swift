@@ -42,13 +42,7 @@ class RegisterController: UIViewController {
         self.termsTextView.delegate = self
         
         self.signUpButton.addTarget(self, action: #selector(didTapSignUp), for: .touchUpInside)
-        self.signInButton.addTarget(self, action: #selector(didTapSignIn), for: .touchUpInside)
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.navigationController?.navigationBar.isHidden = true
-    }
+        self.signInButton.addTarget(self, action: #selector(didTapSignIn), for: .tou
     
     // MARK: - UI Setup
     private func setupUI() {
